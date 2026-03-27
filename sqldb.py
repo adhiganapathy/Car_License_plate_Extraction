@@ -1,6 +1,6 @@
 import sqlite3
 #Connect to the SQLite database (or create it if it doesnot exist)
-conn = sqlite3.connect('database.db')
+conn = sqlite3.connect('licensePlatesDatabase.db')
 
 #Create a cusrsor object to interact with the datbase
 cursor = conn.cursor()
